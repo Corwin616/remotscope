@@ -63,19 +63,6 @@
   </style>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
   </script>
-  <script>
-    $(document).ready(function() {
-      $("#help").hide();
-      $("#help").delay(10000);
-      $("#help").slideDown('slow');
-      $("#help").delay(15000);
-      $("#help").slideUp();
-      $("#btn4").click(function() {
-        $("#help").stop();
-        $("#help").hide();
-      });
-    });
-  </script>
 </head>
 
 <body text="#AE0000" style="margin: 0px; padding:0px; height: 100%; width: 100%; overflow:hidden;" bgcolor="#000000">
@@ -98,18 +85,6 @@
       <tr>
         <td background="img/nochat.jpg" align="center" style="vertical-align:top;" height="100%" width="230">
           <iframe id="chat" style="overflow:hidden;height:100%;width:100%;margin:0px;padding:0px;" width="100%" height="100%" frameborder="0" scrolling="no" align="top" src="http://chatadelic.net/frame.php?chat=58072&type=compact"></iframe>
-        </td>
-      </tr>
-      <tr>
-        <td width="230">
-          <div id="help">
-            <p>
-              <img alt="" src="img/help.png"></img>
-            </p>
-            <p>
-              <button id="btn4" style="width:230px;height:20">скрыть</button>
-            </p>
-          </div>
         </td>
       </tr>
       <tr>
